@@ -3,3 +3,10 @@ body{
   margin: auto;
   align-content: center;
 }
+
+div {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
