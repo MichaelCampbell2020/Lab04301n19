@@ -10,3 +10,9 @@ div {
   align-items: center;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+}
+
