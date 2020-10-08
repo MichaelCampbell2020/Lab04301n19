@@ -1,0 +1,38 @@
+/* tablet size */
+@media only screen and (min-width:600px) and (max-width: 767px){
+  #a{
+    background-color: darkgray;
+  }
+  
+  #b{
+  background-color: gray;
+  }
+  
+  #c{
+  background-color: lightgray;
+  }
+
+  #d{
+    background-color:darkblue;
+  }
+  
+  #e{
+  background-color:blue;
+  }
+  
+  #f{
+    background-color: lightblue;
+  }
+  
+  #g{
+    background-color: rgb(126, 69, 112);
+  }
+  
+  #h{
+    background-color: rgb(99, 48, 86);
+  }
+  
+  #i{
+    background-color: rgb(66, 29, 57);
+  }
+}
