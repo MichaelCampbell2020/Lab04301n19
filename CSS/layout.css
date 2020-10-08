@@ -72,3 +72,90 @@ main {
   background-color: lightskyblue
 }
 
+@media only screen and (min-width:768px){
+  body {
+    width: 960px;
+  }
+  main {
+    grid-template-columns: 20fr 19fr 19fr 19fr 19fr;
+    grid-template-rows: 100px 200px 250px 150px;
+    display: grid;
+  }
+  div {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #a {
+    grid-column:1/6;
+    grid-row: 1/2;
+    height:auto;
+    width: auto;
+    background-color: darkseagreen
+  }
+  
+  #b {
+    grid-column:1/1;
+    grid-row: 2/6;
+    height:auto;
+    width:auto;
+    background-color: darkkhaki
+  }
+  
+  #c {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    height:auto;
+    width: auto;
+    background-color: rosybrown
+  }
+  
+  #d {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    height:auto;
+    width: auto;
+    background-color: lightcoral
+  }
+  
+  #e {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    height:auto;
+    width: auto;
+    background-color: khaki
+  }
+  
+  #f {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    height:auto;
+    width: auto;
+    background-color: floralwhite
+  }
+  
+  #g {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    height:auto;
+    width: auto;
+    background-color: green
+  }
+  
+  #h {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    height:auto;
+    width: auto;
+    background-color: hotpink
+  }
+  
+  #i {
+    grid-column: 2/6;
+    grid-row: 4/5;
+    height:auto;
+    width: auto;
+    background-color: yellow
+  }
+  }
+
