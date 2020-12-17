@@ -91,7 +91,8 @@ main {
     grid-row: 1/2;
     height:auto;
     width: auto;
-    background-color: darkseagreen
+    background-image: linear-gradient(to right, orange,yellow,green,blue,indigo,violet);
+}
   }
   
   #b {
@@ -99,7 +100,7 @@ main {
     grid-row: 2/6;
     height:auto;
     width:auto;
-    background-color: darkkhaki
+    background-image: linear-gradient(to right, red ,orange, yellow);
   }
   
   #c {
@@ -107,7 +108,7 @@ main {
     grid-row: 2/3;
     height:auto;
     width: auto;
-    background-color: rosybrown
+    background-image: linear-gradient(to right,yellow,green,blue);
   }
   
   #d {
@@ -115,7 +116,7 @@ main {
     grid-row: 2/3;
     height:auto;
     width: auto;
-    background-color: lightcoral
+    background-image: linear-gradient(to right, blue, indigo,violet);
   }
   
   #e {
@@ -123,7 +124,7 @@ main {
     grid-row: 3/4;
     height:auto;
     width: auto;
-    background-color: khaki
+    background-image: linear-gradient(to right,yellow,green);
   }
   
   #f {
@@ -131,7 +132,7 @@ main {
     grid-row: 3/4;
     height:auto;
     width: auto;
-    background-color: floralwhite
+    background-image: linear-gradient(to right,green,blue);
   }
   
   #g {
@@ -139,7 +140,7 @@ main {
     grid-row: 3/4;
     height:auto;
     width: auto;
-    background-color: green
+    background-image: linear-gradient(to right, blue, indigo);
   }
   
   #h {
@@ -147,7 +148,7 @@ main {
     grid-row: 3/4;
     height:auto;
     width: auto;
-    background-color: hotpink
+    background-image: linear-gradient(to right,indigo,violet);
   }
   
   #i {
@@ -155,7 +156,7 @@ main {
     grid-row: 4/5;
     height:auto;
     width: auto;
-    background-color: yellow
+    background-image: linear-gradient(to right, yellow,green,blue,indigo,violet);
   }
   }
 
