@@ -1,38 +1,44 @@
 /* tablet size */
 @media only screen and (min-width:600px) and (max-width: 767px){
   #a{
-    background-color: darkgray;
-  }
-  
-  #b{
-  background-color: gray;
-  }
-  
-  #c{
-  background-color: lightgray;
+
+    background-color: darklategray;
   }
 
+  #b{
+    background-color: darkgray;
+  }
+
+  #c{
+    background-color: gray;
+  }
+  
   #d{
-    background-color:darkblue;
+    background-color: lightgray;
   }
-  
+
   #e{
-  background-color:blue;
+    background-color: lightblue
   }
-  
+
   #f{
-    background-color: lightblue;
+    background-color: skyblue;
   }
-  
+
   #g{
-    background-color: rgb(126, 69, 112);
+    background-color: blueviolet;
   }
-  
+
   #h{
-    background-color: rgb(99, 48, 86);
+    background-color: darkblue;
+  }
+
+  #i{
+    background-color: darkslateblue;
+  }
+
+  #j{
+    background-color: midnightblue;
   }
   
-  #i{
-    background-color: rgb(66, 29, 57);
-  }
 }
