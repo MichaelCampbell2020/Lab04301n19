@@ -207,5 +207,50 @@ main {
     width: auto;
     background-image: linear-gradient(to right, yellow,green,blue,indigo,violet);
   }
+/* tablet size */
+@media only screen and (min-width:600px) and (max-width: 767px){
+  #a{
+
+    background-color: darklategray;
+  }
+
+  #b{
+    background-color: darkgray;
+  }
+
+  #c{
+    background-color: gray;
+  }
+  
+  #d{
+    background-color: lightgray;
+  }
+
+  #e{
+    background-color: lightblue
+  }
+
+  #f{
+    background-color: skyblue;
+  }
+
+  #g{
+    background-color: blueviolet;
+  }
+
+  #h{
+    background-color: darkblue;
+  }
+
+  #i{
+    background-color: darkslateblue;
+  }
+
+  #j{
+    background-color: midnightblue;
+  }
+  
+}
+
   }
 
